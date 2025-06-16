@@ -4,7 +4,7 @@
 
     $userNum = $_POST['userNumber'];
     if (!ctype_digit($userNum)) {
-    echo "Please enter a non-negative whole number without decimals.";
+    echo "Invalid input. ";
     exit;
 }
 
