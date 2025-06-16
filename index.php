@@ -16,7 +16,7 @@
   </head>
   <body>
     
-    <form action="./results.php" method="post" target="results">
+    <form action="./result.php" method="post" target="results">
       <label for="userNumber">User Number:</label>
       <input type="integer" id="userNumber" name="userNumber"><br><br>
       <input type="submit" value="Display Factorial">
