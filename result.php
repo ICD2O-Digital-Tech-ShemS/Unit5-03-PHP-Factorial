@@ -14,5 +14,4 @@
     } while ($counter <= $userNum);
 
 ?>
-    <h4>Results:</h4>
     <?php echo $userNum . "!" . " = " . $result ?>
